@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    max-width: 2280px;
+    margin: 0 auto;
+}
+
+nav {
+    background: url('/WebDevST/image/Logo-real.svg') no-repeat;
+    background-size: 140px;
+    display: flex;
+    background-position-y: center;
+    justify-content: end;
+    background-color: #000000;
+    padding: 2rem;
+}
+
+.nav-btn {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-btn1 {
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.nav-btn1:hover {
+    transform: translateY(-8px);
+}
+
+.nav-btn2 {
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.nav-btn2:hover {
+    transform: translateY(-8px);
+}
+
+.nav-btn3 {
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.nav-btn3:hover {
+    transform: translateY(-8px);
+}
+
+.nav-btn4 {
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.nav-btn4:hover {
+    transform: translateY(-8px);
+}
+
+.nav-btn4 a {
+    background-color: rgb(255, 0, 0);
+    padding: .3rem .3rem;
+    border-radius: 2rem;
+    font-style: italic;
+}
+
+.nav-btn a {
+    margin-right: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container2 {
+    max-width: 2280px;
+    margin: 0 auto;
+}
+
+.logo-body {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.header-btn {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.header-btn:hover {
+    transform: translateY(-30px);
+}
+
+.header-btn a {
+    font-size: 30px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    background-color: #cbcefc;
+    height: 300px;
+    width: 275px;
+    text-align: center;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+}
+
+.box {
+    background: linear-gradient(20deg,#431d72,#000938);
+}
+
+.Back {
+    background: url('/WebDevST/image/Icon-d.svg') no-repeat;
+    background-position-x: center;
+    background-position-y: 40px;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(187, 180, 248);
+}
+
+.footer{
+	background-color: #24262b;
+    padding: 15px 0;
+    margin-top: 800px;
+}
+
+.footer-col{
+    height: max-content;
+    width: 25%;
+    height: 100%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-cop {
+    color: #ffffff;
+}
+
+@media(max-width: 767px){
+    .nav-btn a{
+    width: 100%;
+ }
+}
+
+@media(max-width: 574px){
+    .nav-btn{
+    width: 40%;
+    }
+    }
+
+    @media(max-width: 430px){
+        .nav-btn{
+        display: grid;
+        grid-template-columns: repeat(2 , 4fr);
+        gap: .8rem;
+        width: 60%;
+        scale: 80%;
+        }
+        }
+
+@media(max-width: 767px){
+    .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+ }
+}
+
+@media(max-width: 574px){
+.footer-col{
+width: 100%;
+bottom: 0;
+}
+}

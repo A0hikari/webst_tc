@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+    *{
+        font-family: 'Sarabun', sans-serif;
+    }
+
+:root {
+    --primary : #be7c00;
+    --secondary : #100264;
+    --thirdary : #535353;
+    --clr-dark: #070a12;
+    --clr-light: #f9f9fb;
+    --clr-accent: #f43f70;
+    --clr-rgba: rgba(244, 63, 112, 0.2);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    background: linear-gradient(0deg,#525252,#ffffff);
+}
+
+.contact {
+    height: 70vh;
+    width: 75vw;
+    border-radius: 1rem;
+    display: flex ;
+    overflow: hidden;
+    box-shadow: 0 .2rem .5rem #000000;
+}
+
+.map, .form {
+    width: 50%;
+    height: 100%;
+}
+
+.map iframe{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.form {
+    position: relative;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.form::before{
+    position: absolute;
+    top: 10%;
+    left: -2.5rem;
+
+    content: "";
+    width: 0;
+    height: 0;
+    border: 1.4rem solid transparent;
+    border-right: 1.4rem colo#ffffff;
+}
+
+.form h1 {
+    color: #000000;
+    font: 500 1.8rem;
+    padding-left: 10%;
+}
+
+.form form {
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
+
+.form input, form textarea {
+        width: 100%;
+        padding: 1rem;
+        border: .08rem solid var(--primary);
+        border-radius: 2rem;
+        background-color: unset;
+        color: #fff;
+        font-size: 1rem;
+}
+
+.form input, form textarea, form button, form nav {
+    margin-top: 1rem;
+}
+
+.form textarea {
+    height: 6rem;
+    resize: none;
+}
+
+.form button {
+    background-color: var(--clr-accent);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    color: #fff;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.form button:hover {
+    transform: translateY(-10px);
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+}
+
+.form nav a {
+    background-color: var(--clr-accent);
+    padding: .8rem 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.form nav a:hover {
+    transform: translateY(-10px);
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+}
+
+.form nav:hover {
+    transform: translateY(-10px);
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+}
+
+.form nav {
+    padding-top: .8rem;
+    text-decoration: none;
+    width: 0%;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+@media(max-width: 574px){
+    .form{
+    width: 100%;
+    scroll-behavior: auto;
+    }
+    }
+
+@media(max-width: 950px){
+    .form h1{
+        width: 100%;
+    scale: 70%;
+    margin-top: 0.01rem;
+    }
+    }
+
+
+@media(max-width: 574px){
+    .form{
+    width: 100%;
+    }
+    }
+
+@media(max-width: 574px){
+    .form input, form textarea{
+    padding: 1rem;
+    }
+    }
+
+    @media(max-width: 574px){
+        form nav{
+        margin-bottom: 2rem;
+        }
+        }
+
+    @media(max-width: 574px){
+        .form h1{
+        scale: 60%;
+        margin-top: 0.1rem;
+        }
+        }

@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Sarabun', sans-serif;
+}
+
+:root {
+    --clr-gray: #cecece;
+    --clr-light: #f9f9fb;
+    --clr-accent: #f43f70;
+    --clr-rgba: rgba(244, 63, 112, 0.2);
+}
+
+.container {
+    max-width: 2280px;
+    margin: 0 auto;
+}
+
+nav {
+    background: url('/WebDevST/image/Logo-real.svg') no-repeat;
+    background-size: 140px;
+    display: flex;
+    background-position-y: center;
+    justify-content: end;
+    background-color: #000000;
+    padding: 2rem;
+}
+
+.nav-btn {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-btn1 {
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.nav-btn1:hover {
+    transform: translateY(-8px);
+}
+
+.nav-btn2 {
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.nav-btn2:hover {
+    transform: translateY(-8px);
+}
+
+.nav-btn3 {
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.nav-btn3:hover {
+    transform: translateY(-8px);
+}
+
+.nav-btn4 {
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.nav-btn4:hover {
+    transform: translateY(-8px);
+}
+
+.nav-btn4 a {
+    background-color: rgb(255, 0, 0);
+    padding: .3rem .3rem;
+    border-radius: 2rem;
+    font-style: italic;
+}
+
+.nav-btn a {
+    margin-right: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container2 {
+    max-width: 2280px;
+    margin: 0 auto;
+}
+
+.logo-body {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    scale: 180%;
+}
+
+.header-b {
+    height: max-content;
+    padding: 10rem;
+    background: url('/WebDevST/image/เช้า 1.svg') no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.Head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-btn1 {
+    display: flex;
+    margin-left: 50px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.header-btn1:hover {
+    transform: translateY(-50px);
+}
+
+.header-btn1 a {
+    font-size: 30px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header-btn2 {
+    display: flex;
+    margin-left: 50px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.header-btn2:hover {
+    transform: translateY(-50px);
+}
+
+.header-btn2 a {
+    font-size: 30px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header-btn3 {
+    display: flex;
+    margin-left: 50px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.header-btn3:hover {
+    transform: translateY(-50px);
+}
+
+.header-btn3 a {
+    font-size: 30px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header-btn4 {
+    display: flex;
+    margin-left: 50px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.header-btn4:hover {
+    transform: translateY(-50px);
+}
+
+.header-btn4 a {
+    font-size: 30px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.เวลาเข้าเรียน {
+    background: url('/WebDevST/image/student_bb1.png') no-repeat;
+    background-size: 80px;
+    background-position-x: center;
+    background-position-y: 40px;
+    align-items: center;
+}
+
+.เกณฑ์การเรียน {
+    background: url('/WebDevST/image/teacher_bb2.png') no-repeat;
+    background-size: 80px;
+    background-position-x: center;
+    background-position-y: 40px;
+    align-items: center;
+}
+
+.คะแนนประจำวิชา {
+    background: url('/WebDevST/image/test_bb3.png') no-repeat;
+    background-size: 80px;
+    background-position-x: center;
+    background-position-y: 40px;
+    align-items: center;
+}
+
+.Log-out {
+    background: url('/WebDevST/image/logout_bb4.png') no-repeat;
+    background-size: 80px;
+    background-position-x: center;
+    background-position-y: 40px;
+    align-items: center;
+}
+
+html {
+    height: 100%;
+}
+
+body{
+	font-family: 'Sarabun', sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+	background-color: #24262b;
+    padding: 15px 0;
+    
+}
+
+.footer-col{
+    height: max-content;
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+@media(max-width: 574px){
+    .logo-body{
+    width: 50%;
+    }
+    }
+
+    @media(max-width: 1366px){
+        .header-btn {
+            display: grid;
+            grid-template-columns: repeat(8 , 1fr);
+            gap: 1px;
+            scale: 90%;
+     }
+    }
+
+    @media(max-width: 1200px){
+        .logo-body{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        }
+        }
+
+        @media(max-width: 1400px){
+            .Head {
+            display: grid;
+            grid-template-columns: repeat(4 , 1fr);
+            gap: .1rem;
+            scale: 80%;
+         }
+        }
+
+    
+    @media(max-width: 1200px){
+        .Head {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        gap: 5rem;
+        scale: 100%;
+     }
+    }
+
+    @media(max-width: 760px){
+        .Head {
+        display: grid;
+        grid-template-columns: repeat(1 , 4fr);
+        gap: 2rem;
+        justify-content: center;
+     }
+    }
+
+@media(max-width: 767px){
+    .nav-btn a{
+    width: 100%;
+ }
+}
+
+@media(max-width: 430px){
+    .nav-btn{
+    display: grid;
+    grid-template-columns: repeat(2 , 4fr);
+    gap: .8rem;
+    width: 60%;
+    scale: 80%;
+    }
+    }
+    
+    @media(max-width: 767px){
+        .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+     }
+    }
+
+@media(max-width: 574px){
+.footer-col{
+    width: 100%;
+    bottom: 0;
+}
+}
